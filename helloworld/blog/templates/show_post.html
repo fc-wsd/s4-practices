@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h3>{{entry.title}}</h3>
+
+<div>
+{{entry.content}}
+</div>
+
+<p>
+    {{entry.updated_at}}
+</p>
+
+<p><a href="{% url 'blogs:create' %}">글쓰기</a></p>
+
+</body>
+</html>
+
